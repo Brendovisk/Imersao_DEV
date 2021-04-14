@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+
+    background-color: #000000;
+    border: none;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 45px;
+    font-size: 50px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 60px;
+    position: absolute;
+    top: 14px;
+    right: 40px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+
+  .movieImages img {
+
+    height: 300px;
+    padding:10px;
+    background-image: linear-gradient(180deg, #da1e26, #4d0a0d);
+    border-radius: 10px;
+    margin: 8px 8px 100px 8px;
+    border: 1px solid #611515;
+    
+    cursor: pointer;
+  }

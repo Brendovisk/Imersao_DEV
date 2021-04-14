@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(193deg, #573A4C, #2d1e45);
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    transform: translateY(100px);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 15px;
+    background-color: #23221E;
+    border: 5px solid #BD5B71;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: inset 0 0 1em #ba5cf8, 0 0 1em #ff64cb;
+}
+
+h1 {
+    color: #BD5B71;
+    text-align: center;
+    text-shadow: 4px 4px #000000;
+}
+
+h1::selection {
+    background-color: #ffffff;
+    text-shadow: none;
+}
+
+h2 {
+    margin-left: 15px;
+
+    color: #ffffff;
+    text-shadow: 4px 4px #000000;
+    margin-bottom: 40px;
+}
+
+h2::selection {
+    background-color:#000000;
+    text-shadow: none;
+}
+
+
+div {
+    margin: 15px;
+    border:  5px solid #BD5B71;
+    border-radius: 15px;
+    background-color: #E8D69B;
+    padding: 10px 0px 0px 50px;
+}
+
+header {
+    background-image: url(images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 20px;
+    
+    border-top-right-radius: 50px;
+}
+
+.profile--photo {
+    display: block;
+    border-radius: 100%;
+    width: 225px;
+    height: 225px;
+    border: 5px solid #BD5B71;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile--photo:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 4em #ba5cf8, 0 0 4em #ff64cb;
+    filter: contrast(112%);
+    filter: brightness(112%);
+
+    transition: 2s;    
+}
+
+
+.imersaoDev__logo {
+    padding: 4px;
+
+    font-style: normal;
+    color: #ffffff;
+    background-color: #2779de;
+}
+
+.imersaoDev {
+    padding: 8px 4px 8px 4px;
+
+    font-style: normal;
+    background-color: #F9FADD;
+    text-shadow: none;
+    color: #2578d8;
+}
+
+.imersaoDev:hover {
+    cursor: pointer;
+    background-color: #be5472;
+    transition: 1.2s;
+}
+
+footer {
+    margin-top: 282px;
+    float: right;
+    margin-right: 20px;
+    color: transparent;
+}
+
+.footer:hover {
+    cursor: pointer;
+    color: #ffffff;
+    transition: 5s;
+}

@@ -1,0 +1,13 @@
+:root {
+    --color-black-first: #000000;
+    --color-black-second: #112233;
+    --color-first: #FC575E;
+    --color-second: #44BBFF;
+    --color-third: #F0F1F5;
+    --color-forth: #66CC99;
+}
+
+body {
+    background-color: #112233;
+    font-family: 'Press Start 2P', cursive;
+}
